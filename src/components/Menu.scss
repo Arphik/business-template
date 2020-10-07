@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
+.menu{
+    width: 620px;
+    position: absolute;
+    right: 180px; top: 30px;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.menu__ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__li{
+    cursor: pointer;
+    &:hover{
+        text-decoration: underline;
+    }
+}

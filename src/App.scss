@@ -1,0 +1,16 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background: url('./background.png') no-repeat center/cover;
+  background-size: 100% 100%;
+}
+
+.freepik__copyrights{
+  position: fixed;
+  left: 5px;
+  bottom: 15px;
+  color: rgb(202, 231, 255);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
